@@ -8,7 +8,7 @@ public class Main {
 
         testOddness();
         keepContained();
-
+        lastDigit();
     }
 
     public static void testOddness() {    // write your code here
@@ -42,11 +42,22 @@ public class Main {
 
     }
 
+
+    public static void lastDigit() {
+
+
+        // todo get the last digit
+        Scanner keyboard;
+        int positiveNumber2;
+
+                keyboard = new Scanner(System.in);
+        System.out.println("Please give me a number that's four places long. (EX.2308)");
+        positiveNumber2 = keyboard.nextInt();
+                System.out.println("The Last Digit is: "+positiveNumber2%10);
+    }
+
+
 }
-
-
-
-
 
 
 
